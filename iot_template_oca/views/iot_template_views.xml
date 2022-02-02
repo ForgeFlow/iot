@@ -9,10 +9,10 @@
                 <sheet>
                     <div class="oe_button_box" name="button_box" />
                     <field
-                        name="image_1920"
+                        name="image"
                         widget='image'
                         class="oe_avatar"
-                        options='{"preview_image": "image_128"}'
+                        options='{"preview_image": "image_small"}'
                     />
                     <div class="oe_title">
                         <h1>
