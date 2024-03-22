@@ -1,9 +1,8 @@
 odoo.define("iot_option.relational_fields", function (require) {
     "use strict";
-
-    var IotOptionRenderer = require("iot_option.IotOptionRenderer");
+    const IotOptionRenderer = require("@iot_option_oca/js/iot_option_renderer.esm");
+    // Var IotOptionRenderer = require("iot_option.IotOptionRenderer");
     var relational_fields = require("web.relational_fields");
-
     relational_fields.FieldOne2Many.include({
         _getRenderer: function () {
             if (this.view.arch.tag === "iot_option") {

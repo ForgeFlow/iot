@@ -3,9 +3,8 @@
 
 {
     "name": "Iot Custom Field Oca",
-    "summary": """
-        Allow to define custom field for IoT""",
-    "version": "15.0.1.0.0",
+    "summary": """Allow to define custom field for IoT""",
+    "version": "16.0.1.0.0",
     "license": "AGPL-3",
     "author": "Creu Blanca,Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/iot",
@@ -18,11 +17,17 @@
     ],
     "assets": {
         "web.assets_backend": [
-            "iot_option_oca/static/src/js/iot_option_renderer.js",
-            "iot_option_oca/static/src/js/iot_option_view.js",
+            # "iot_option_oca/static/src/js/iot_option_controller.js",
+            # "iot_option_oca/static/src/js/iot_option_renderer.js",
+            # "iot_option_oca/static/src/js/iot_option_view.js",
+            "iot_option_oca/static/src/js/iot_option_arch_parser.esm.js",
+            "iot_option_oca/static/src/js/iot_option_controller.esm.js",
+            "iot_option_oca/static/src/js/iot_option_model.esm.js",
+            "iot_option_oca/static/src/js/iot_option_renderer.esm.js",
+            "iot_option_oca/static/src/js/iot_option_view.esm.js",
             "iot_option_oca/static/src/js/relational_fields.js",
             "iot_option_oca/static/src/scss/iot_option.scss",
+            "iot_option_oca/static/src/xml/iot_option_item.xml",
         ],
-        "web.assets_qweb": ["iot_option_oca/static/src/xml/iot_option_item.xml"],
     },
 }
